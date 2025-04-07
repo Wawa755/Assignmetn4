@@ -6,14 +6,7 @@ function Home() {
       <h2>Dog</h2>
       <div>
       <img src="/dog.jpg" alt="Dog" />
-      </div>
-      
-  <div>
-      <Link to="/privacy-policy">
-        <button>Go to Privacy Policy</button>
-      </Link>
-</div>
-      
+      </div>  
     </div>
   );
 }
