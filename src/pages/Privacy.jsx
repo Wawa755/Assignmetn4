@@ -16,10 +16,7 @@ function PrivacyPolicy() {
       <ul>
         <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
         <li><strong>Affiliate</strong> means an entity that controls, is controlled by, or is under common control with a party...</li>
-        {/* Add the rest of your definitions */}
       </ul>
-
-      {/* Add all the content from your privacy policy as you mentioned */}
 
       <h2>Contact Us</h2>
       <p>If you have any questions about this Privacy Policy, You can contact us:</p>
@@ -27,9 +24,8 @@ function PrivacyPolicy() {
         <li>By visiting this page on our website: <a href="https://assignment4-git-main-wawas-projects-1a787b7f.vercel.app/privacy-policy" target="_blank" rel="noopener noreferrer">https://assignment4-git-main-wawas-projects-1a787b7f.vercel.app/privacy-policy</a></li>
       </ul>
 
-      {/* Back to Home Button */}
       <Link to="/">
-        <button>Back to Home</button>
+        <button className="returnButton">Back to Home</button>
       </Link>
     </div>
   );
